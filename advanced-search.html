@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-bar">
+      <label>Advanced Search</label>
+    </div>
+    <form action="https://google.com/search" name="f">
+      <div class="grid">
+        <!-- title -->
+        <div class="grid-item">
+          <span> Find pages with...</span>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+          <span> To do this in the search box. </span>
+        </div>
+        <div class="grid-item"></div>
+        <!-- all these words line -->
+        <div class="grid-item" id="av-text">all these words:</div>
+        <div class="grid-item" id="av-text">
+          <input type="text" name="as_q" />
+        </div>
+        <div class="grid-item" id="av-des">
+          Type the important words: tri-colour rat terrier
+        </div>
+        <div class="grid-item"></div>
+        <!-- exact words line -->
+        <div class="grid-item" id="av-text">this exact word or phrase:</div>
+        <div class="grid-item" id="av-text">
+          <input type="text" name="as_epq" />
+        </div>
+        <div class="grid-item" id="av-des">
+          Put exact words in quotes: "rat terrier"
+        </div>
+        <div class="grid-item"></div>
+        <!-- any words line -->
+        <div class="grid-item" id="av-text">any of these words:</div>
+        <div class="grid-item" id="av-text">
+          <input type="text" name="as_oq" />
+        </div>
+        <div class="grid-item" id="av-des">
+          Type OR between all the words you want: miniature OR standard
+        </div>
+        <div class="grid-item"></div>
+        <!-- none these words line -->
+        <div class="grid-item" id="av-text">none of these words:</div>
+        <div class="grid-item" id="av-text">
+          <input type="text" name="as_eq" />
+        </div>
+        <div class="grid-item" id="av-des">
+          Put a minus sign just before words that you don't want: -rodent,
+          -"Jack Russell"
+        </div>
+        <div class="grid-item"></div>
+        <!-- button line -->
+        <div class="grid-item"></div>
+        <div class="grid-item" style="display: inline; text-align: right;">
+          <input id="av-btn" value="Advanced Search" type="submit" />
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+    </form>
+  </body>
+</html>
