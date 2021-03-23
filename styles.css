@@ -3,19 +3,19 @@ body {
   font-family: arial, sans-serif;
 }
 
-#menu {
+.menu {
   display: flex;
   justify-content: flex-end;
 }
 
 #logo,
 #search,
-#buttons {
+.buttons {
   display: flex;
   justify-content: center;
 }
 
-a {
+.menu > a {
   color: rgba(0, 0, 0, 0.87);
   font-size: 13px;
   line-height: 24px;
